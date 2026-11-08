@@ -1,0 +1,14 @@
+[project]
+name = "tmdb-app"
+version = "0.1.0"
+dependencies = ["requests"]
+
+[project.scripts]
+tmdb-app = "tmdb_app:main"
+
+[tool.setuptools]
+py-modules = ["tmdb_app"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
